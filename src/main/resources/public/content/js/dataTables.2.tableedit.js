@@ -183,11 +183,11 @@ if (typeof jQuery === 'undefined') {
                             },
                             save: {
                                 class: 'btn btn-xs btn-outline-secondary jqt-small-button',
-                                html: 'Kaydet'
+                                html: 'Save'
                             },
                             confirm: {
                                 class: 'btn btn-xs btn-danger jqt-small-button',
-                                html: 'Onayla'
+                                html: 'Confirm'
                             },
                             delete: {
                                 class: 'btn btn-xs btn-danger',

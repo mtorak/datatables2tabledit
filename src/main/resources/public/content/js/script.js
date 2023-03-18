@@ -68,8 +68,8 @@ var Step3 = Step3 || {}, dt2TeFields, dt2TeIpRels;
 											<span class="fas fa-trash-alt"></span>
 										</button>
 										</div>
-										<button type="button" class="tabledit-save-button btn btn-xs btn-outline-secondary jqt-small-button" style="display: none; float: none;">Kaydet</button>
-										<button type="button" class="tabledit-confirm-button btn btn-xs btn-danger jqt-small-button" style="display: none; float: none;">Onayla</button>
+										<button type="button" class="tabledit-save-button btn btn-xs btn-outline-secondary jqt-small-button" style="display: none; float: none;">Save</button>
+										<button type="button" class="tabledit-confirm-button btn btn-xs btn-danger jqt-small-button" style="display: none; float: none;">Confirm</button>
 									</div>
 									</td>
 								</tr>`
@@ -177,8 +177,8 @@ var Step3 = Step3 || {}, dt2TeFields, dt2TeIpRels;
                                                 <span class="fas fa-trash-alt"></span>
                                             </button>
                                             </div>
-                                            <button type="button" class="tabledit-save-button btn btn-xs btn-outline-secondary jqt-small-button" style="display: none; float: none;">Kaydet</button>
-                                            <button type="button" class="tabledit-confirm-button btn btn-xs btn-danger jqt-small-button" style="display: none; float: none;">Onayla</button>
+                                            <button type="button" class="tabledit-save-button btn btn-xs btn-outline-secondary jqt-small-button" style="display: none; float: none;">Save</button>
+                                            <button type="button" class="tabledit-confirm-button btn btn-xs btn-danger jqt-small-button" style="display: none; float: none;">Confirm</button>
                                         </div>
                                         </td>
                                     </tr>`
