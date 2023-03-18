@@ -1,0 +1,61 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <title>Dtatables & Tabledit</title><meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=3,minimum-scale=0.5">
+  <meta name="description" content="Diyasor dkoküman yönetim sistemi">
+
+  <link rel="stylesheet" th:href="@{/content/3rd/css/bootstrap.css}" media="screen">
+  <link rel="stylesheet" th:href="@{/content/3rd/css/datatables.min.css}" media="screen">
+  <link rel="stylesheet" th:href="@{/content/3rd/css/simple-notify.min.css}" media="screen">
+  <link rel="stylesheet" th:href="@{/content/3rd/css/fontawesome/style/font-awesome6-all.min.css}" media="screen">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="app">
+
+    <div class="app-container container mt-10 mb-5">
+
+      <div class="row table-body job-table-body">
+        <div class="col-xl-5 text-center">
+          <h6>Alanlar Tablosu</h6>
+          <table id="fieldsTable" class="datatable">
+            <thead class="datatable-header"></thead>
+            <tbody class="datatable-body"></tbody>
+          </table>
+        </div>
+        <div class="col-xl-7 text-center">
+          <h6>Ip - Port - Zaman Tablosu</h6>
+          <table id="ipRelationsTable" class="datatable">
+            <thead class="datatable-header"></thead>
+            <tbody class="datatable-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script th:src="@{/content/3rd/js/jquery.js}"></script>
+  <script th:src="@{/content/3rd/js/bootstrap.bundle.min.js}"></script>
+  <script th:src="@{/content/3rd/js/datatable.js}"></script>
+  <script th:src="@{/content/3rd/js/datatable-checbox.js}"></script>
+  <script th:src="@{/content/3rd/js/dataTables.buttons.min.js}"></script>
+  <script th:src="@{/content/3rd/js/simple-notify.min.js}"></script>
+  <script th:src="@{/content/3rd/js/jquery.tabledit.min.js}"></script>
+  <script th:src="@{/content/3rd/js/jquery.blockUI.js}"></script>
+
+  <script th:src="@{/content/js/common.js}"></script>
+  <script th:src="@{/content/js/dataTables.2.tableedit.js}"></script>
+  <script th:src="@{/content/js/script.js}"></script>
+
+</body>
+
+</html>
