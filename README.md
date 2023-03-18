@@ -13,7 +13,7 @@ The Left side table defines 'fields' & every column on the right side table is a
   - Clone project
   - run `mvn install` in project directory
   - Open http://localhost:8080 in your browser
-  - Click around & find out
+  - Click around & find your way
 
 ![UI example:](doc/dt2te.png "UI screeshot")
 
