@@ -26,7 +26,7 @@ if (typeof jQuery === 'undefined') {
             dataTables: {
                 ajaxUrl: '',
                 validSelectsProperty: null,
-                addNewRowText: 'Satır Ekle',
+                addNewRowText: 'Add Row',
                 addTableRowClass: null,
                 dataProperty: null,
                 // plain row html without tabledit
@@ -46,17 +46,17 @@ if (typeof jQuery === 'undefined') {
                 scrollCollapse: false,
                 columns: [],
                 language: {
-                    "lengthMenu": "Sayfada _MENU_ kayıt göster",
-                    "zeroRecords": "Kayıt bulunamadı!",
-                    "info": "_PAGES_ sayfadan _PAGE_. sayfayı görüntülüyorsunuz",
-                    "infoEmpty": "Kayıt bulunamadı",
-                    "infoFiltered": "(Toplam _MAX_ kayıttan filtrelenmiş sonuç)",
-                    "sSearch": "Ara",
+                    "lengthMenu": "Show _MENU_ rows in a page",
+                    "zeroRecords": "No records found!",
+                    "info": "You are presented _PAGE_ th page, total pages: _PAGES_",
+                    "infoEmpty": "No records",
+                    "infoFiltered": "(Fitered from _MAX_ records)",
+                    "sSearch": "Search",
                     "oPaginate": {
-                        "sFirst": "İlk Sayfa",
-                        "sPrevious": "Önceki",
-                        "sNext": "Sonraki",
-                        "sLast": "Son Sayfa"
+                        "sFirst": "First Page",
+                        "sPrevious": "Previous",
+                        "sNext": "Next",
+                        "sLast": "Last Page"
                     }
                 }
             },

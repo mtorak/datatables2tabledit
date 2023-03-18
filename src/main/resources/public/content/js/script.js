@@ -28,13 +28,13 @@ var Step3 = Step3 || {}, dt2TeFields, dt2TeIpRels;
                         },
                         {
                             data: "value",
-                            title: "Değer",
+                            title: "Value",
                             type: "input",
                             valueField: "value"
                         },
                         {
                             data: "fieldTypeText",
-                            title: "Tip",
+                            title: "Field Type",
                             type: "select",
                             valueField: "fieldTypeId"
                         }
@@ -123,13 +123,13 @@ var Step3 = Step3 || {}, dt2TeFields, dt2TeIpRels;
                         },
                         {
                             data: "startDateField.value",
-                            title: "Başlangıç Tarihi",
+                            title: "Start Date",
                             type: "select",
                             valueField: "startDateField.id"
                         },
                         {
                             data: "startTimeField.value",
-                            title: "Başlangıç Saati",
+                            title: "Start Time",
                             type: "select",
                             valueField: "startTimeField.id"
                         }
