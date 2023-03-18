@@ -4,6 +4,7 @@
 - Datatables: https://datatables.net/
 - JQuery-Tabledit: https://markcell.github.io/jquery-tabledit
 - **Integration jquery plugin:** [dataTables.2.tableedit.js](src/main/resources/public/content/js/dataTables.2.tableedit.js)
+Currently it only supports `<input>` and `<select>` form elements.
 - **Integration plugin usage:** [script.js](src/main/resources/public/content/js/script.js)
 - In this example, the right side table data depends on the left side table data. <br>
 The Left side table defines 'fields' & every column on the right side table is a 'field', except id(#) column.
