@@ -3,8 +3,8 @@
 ### Dt2Te: Datatables & Tabledit integration
 - Datatables: https://datatables.net/
 - JQuery-Tabledit: https://markcell.github.io/jquery-tabledit
-- **Integration jquery plugin:** src/main/resources/public/content/js/dataTables.2.tableedit.js
-- **Integration plugin usage:** src/main/resources/public/content/js/script.js
+- **Integration jquery plugin:** [dataTables.2.tableedit.js](src/main/resources/public/content/js/dataTables.2.tableedit.js)
+- **Integration plugin usage:** [script.js](src/main/resources/public/content/js/script.js)
 - **Backend:** Spring Boot, Spring Rest, Thymeleaf
 - **Installation:**
   - Clone project
