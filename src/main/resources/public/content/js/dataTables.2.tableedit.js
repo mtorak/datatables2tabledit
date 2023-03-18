@@ -8,9 +8,6 @@
 
 *************************************************************/
 
-// Global Step3 object
-
-
 if (typeof jQuery === 'undefined') {
     throw new Error('Dt2Te requires jQuery library!');
 }
