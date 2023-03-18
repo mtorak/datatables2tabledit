@@ -8,7 +8,7 @@ Currently it only supports `<input>` and `<select>` form elements.
 - **Integration plugin usage:** [script.js](src/main/resources/public/content/js/script.js)
 - In this example, the right side table data depends on the left side table data. <br>
 The Left side table defines 'fields' & every column on the right side table is a 'field', except id(#) column.
-- **Backend:** Spring Boot, Spring Rest, Thymeleaf
+- **Backend:** Spring Boot, Spring Rest; **Frontend:** Thymeleaf
 - **Installation:**
   - Clone project
   - run `mvn install` in project directory
