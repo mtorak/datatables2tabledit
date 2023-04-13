@@ -12,7 +12,7 @@ The Left side table defines 'field's & every column on the right side table is a
 - **Installation:**
   - Clone the project
   - run `mvn install` in the project directory
-  - Run PocApplication class
+  - Run `PocApplication` class
   - Open http://localhost:8080 in your browser
   - Click around & find your way
 
