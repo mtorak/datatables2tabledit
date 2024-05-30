@@ -9,9 +9,9 @@ Currently it only supports `<input>` and `<select>` form elements.
 - In this example, data of the right side table depends on data of the left side table. <br>
 The Left side table defines 'field's & every column on the right side table is a 'field', except id(#) column.
 - **Backend:** Spring Boot, Spring Rest; **Frontend:** Thymeleaf, Javascript
-- **Installation:**
+- **How to run:**
   - Clone the project
-  - run `mvn install` in the project directory
+  - Run `mvn clean install` in the project directory
   - Run `PocApplication` class
   - Open http://localhost:8080 in your browser
   - Click around & find your way
